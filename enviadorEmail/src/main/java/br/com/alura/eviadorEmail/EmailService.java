@@ -13,7 +13,7 @@ public class EmailService {
             Email email = new SimpleEmail();
             email.setHostName("smtp.googlemail.com");
             email.setSmtpPort(465);
-            email.setAuthenticator(new DefaultAuthenticator("thinindo2@gmail.com", "cyborg009$"));
+            email.setAuthenticator(new DefaultAuthenticator("thinindo2@gmail.com", "senha$"));
             email.setSSLOnConnect(true);
 
             email.setFrom("thinindo2@gmail.com");
